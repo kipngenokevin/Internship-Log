@@ -73,9 +73,22 @@
          <section>
             <div class="container">
                 <div class="contactInfo">
-
-                 </div>
+                  <div>
+                    <h2> Daily Entry </h2>
+                    <h2><span class="las la-edit"></span>19/05/2021</h2>
+                  </div>
+                </div>
                 <div class="contactForm">
+                  <h2>Today's Entry</h2>
+                  <div class="formBox">
+                    <div class="inputBox w100">
+                      <textarea required></textarea>
+                      <span>Write your daily entry here...</span>
+                    </div>
+                    <div class="inputBox w100">
+                      <input type="submit" value="Send">
+                    </div>
+                  </div>
                 </div>
             </div>
          </section>

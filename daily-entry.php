@@ -79,11 +79,14 @@
                   </div>
                 </div>
                 <div class="contactForm">
-                  <h2>Write Today's Entry</h2>
+                  <h2>Today's Entry</h2>
                   <div class="formBox">
-                    <div class="inputBox w50">
-                      <input type="text" required>
-                      
+                    <div class="inputBox w100">
+                      <textarea required></textarea>
+                      <span>Write your daily entry here...</span>
+                    </div>
+                    <div class="inputBox w100">
+                      <input type="submit" value="Send">
                     </div>
                   </div>
                 </div>
