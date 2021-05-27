@@ -84,26 +84,26 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>UI/UX Design</td>
+                      <td>23/04/2021</td>
                       <td>UI Team</td>
-                      <td><span class="status purple"></span>
-                        review
+                      <td>
+                        Good Work
                       </td>
                     </tr>
 
                     <tr>
-                      <td>Web Development</td>
+                      <td>24/04/2021</td>
                       <td>FrontEnd</td>
-                      <td><span class="status pink"></span>
+                      <td>
                         in progress
                       </td>
                     </tr>
 
                     <tr>
-                      <td>Ushop App</td>
+                      <td>25/04/2021</td>
                       <td>Mobile Team</td>
-                      <td><span class="status orange"></span>
-                        pending
+                      <td>
+                        Delivered on time!
                       </td>
                     </tr>
                   </tbody>

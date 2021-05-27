@@ -86,24 +86,24 @@
                     <tr>
                       <td>23/05/2021</td>
                       <td>UI Team</td>
-                      <td><span class="status purple"></span>
-                        review
+                      <td>
+                        Working well
                       </td>
                     </tr>
 
                     <tr>
                       <td>30/05/2021</td>
                       <td>FrontEnd</td>
-                      <td><span class="status pink"></span>
-                        in progress
+                      <td>
+                        Amazing work 
                       </td>
                     </tr>
 
                     <tr>
                       <td>7/06/2021</td>
                       <td>Mobile Team</td>
-                      <td><span class="status orange"></span>
-                        pending
+                      <td>
+                        Reported on time
                       </td>
                     </tr>
                   </tbody>
