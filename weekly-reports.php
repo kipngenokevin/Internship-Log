@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+  
   <input type="checkbox" id="nav-toggle">
   <div class="sidebar">
     <div class="sidebar-brand">
@@ -15,19 +15,19 @@
     </div>
     <div class="sidebar-menu">
       <ul>
-        <li><a href="index" class="active"><span class="las la-igloo"></span>
+        <li><a href="index"><span class="las la-igloo"></span>
           <span>Dashboard</span></a>
         </li>
         <li><a href="daily-entry"><span class="las la-pen-nib"></span>
           <span>New Daily Entry</span></a>
         </li>
-        <li><a href="daily-reports"><span class="las la-list"></span>
+        <li><a href="daily-entries"><span class="las la-list"></span>
           <span>View Daily Entries</span></a>
         </li>
         <li><a href="weekly-report"><span class="lar la-edit"></span>
           <span>Write Weekly Report</span></a>
         </li>
-        <li><a href="weekly-reports"><span class="las la-clipboard-list"></span>
+        <li><a href="weekly-reports" class="active"><span class="las la-clipboard-list"></span>
           <span>View Weekly Reports</span></a>
         </li>
       </ul>
@@ -60,47 +60,7 @@
 
     <main>
 
-      <div class="cards">
-        <div class="card-single">
-          <div>
-            <h1>21</h1>
-            <span>Daily Entries</span>
-          </div>
-          <div>
-            <span class="las la-tasks"></span>
-          </div>
-        </div>
 
-        <div class="card-single">
-          <div>
-            <h1>2</h1>
-            <span>Projects</span>
-          </div>
-          <div>
-            <span class="las la-project-diagram"></span>
-          </div>
-        </div>
-
-        <div class="card-single">
-          <div>
-            <h1>3</h1>
-            <span>Weekly Reports</span>
-          </div>
-          <div>
-            <span class="las la-calendar-check"></span>
-          </div>
-        </div>
-
-        <div class="card-single">
-          <div>
-            <h1>2</h1>
-            <span>Supervisors</span>
-          </div>
-          <div>
-            <span class="las la-user-check"></span>
-          </div>
-        </div>
-      </div>
 
       <div class="recent-grid">
 
@@ -109,8 +69,7 @@
           <div class="card">
 
             <div class="card-header">
-              <h2>Recent Projects</h2>
-              <button>See all<span class="las la-arrow-right"></span></button>
+              <h2>Weekly Reports</h2>
             </div>
 
             <div class="card-body">
@@ -118,14 +77,14 @@
                 <table width="100%">
                   <thead>
                     <tr>
-                      <td>Project Title</td>
-                      <td>Department</td>
-                      <td>Status</td>
+                      <td>Date</td>
+                      <td>Report</td>
+                      <td>Comments</td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>UI/UX Design</td>
+                      <td>23/05/2021</td>
                       <td>UI Team</td>
                       <td><span class="status purple"></span>
                         review
@@ -133,7 +92,7 @@
                     </tr>
 
                     <tr>
-                      <td>Web Development</td>
+                      <td>30/05/2021</td>
                       <td>FrontEnd</td>
                       <td><span class="status pink"></span>
                         in progress
@@ -141,7 +100,7 @@
                     </tr>
 
                     <tr>
-                      <td>Ushop App</td>
+                      <td>7/06/2021</td>
                       <td>Mobile Team</td>
                       <td><span class="status orange"></span>
                         pending
@@ -184,7 +143,7 @@
 
               <div class="customer">
                 <div class="info">
-                <img src="img/img2.png" width="40px" height="40px" alt="">
+                  <img src="img/img2.png" width="40px" height="40px" alt="">
                   <div>
                     <h4>Jane Doe</h4>
                     <small>Manager</small>
@@ -201,7 +160,7 @@
           </div>
         </div>
       </div>
-
+ 
     </main>
   </div>
 

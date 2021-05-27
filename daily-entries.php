@@ -15,13 +15,13 @@
     </div>
     <div class="sidebar-menu">
       <ul>
-        <li><a href="index" class="active"><span class="las la-igloo"></span>
+        <li><a href="index"><span class="las la-igloo"></span>
           <span>Dashboard</span></a>
         </li>
         <li><a href="daily-entry"><span class="las la-pen-nib"></span>
           <span>New Daily Entry</span></a>
         </li>
-        <li><a href="daily-reports"><span class="las la-list"></span>
+        <li><a href="daily-entries" class="active"><span class="las la-list"></span>
           <span>View Daily Entries</span></a>
         </li>
         <li><a href="weekly-report"><span class="lar la-edit"></span>
@@ -60,47 +60,7 @@
 
     <main>
 
-      <div class="cards">
-        <div class="card-single">
-          <div>
-            <h1>21</h1>
-            <span>Daily Entries</span>
-          </div>
-          <div>
-            <span class="las la-tasks"></span>
-          </div>
-        </div>
-
-        <div class="card-single">
-          <div>
-            <h1>2</h1>
-            <span>Projects</span>
-          </div>
-          <div>
-            <span class="las la-project-diagram"></span>
-          </div>
-        </div>
-
-        <div class="card-single">
-          <div>
-            <h1>3</h1>
-            <span>Weekly Reports</span>
-          </div>
-          <div>
-            <span class="las la-calendar-check"></span>
-          </div>
-        </div>
-
-        <div class="card-single">
-          <div>
-            <h1>2</h1>
-            <span>Supervisors</span>
-          </div>
-          <div>
-            <span class="las la-user-check"></span>
-          </div>
-        </div>
-      </div>
+      
 
       <div class="recent-grid">
 
@@ -109,8 +69,7 @@
           <div class="card">
 
             <div class="card-header">
-              <h2>Recent Projects</h2>
-              <button>See all<span class="las la-arrow-right"></span></button>
+              <h2>Daily Entries</h2>
             </div>
 
             <div class="card-body">
@@ -118,9 +77,9 @@
                 <table width="100%">
                   <thead>
                     <tr>
-                      <td>Project Title</td>
-                      <td>Department</td>
-                      <td>Status</td>
+                      <td>Date</td>
+                      <td>Report</td>
+                      <td>Comments</td>
                     </tr>
                   </thead>
                   <tbody>
