@@ -61,12 +61,12 @@
             <div class="container">
                 <div class="contactInfo">
                   <div>
-                    <h2> Daily Entry </h2>
+                    <h2> Weekly Report </h2>
                     <h2><span class="las la-edit"></span>19/05/2021</h2>
                   </div>
                 </div>
                 <div class="contactForm">
-                  <h2>Today's Entry</h2>
+                  <h2>This Week's Entry</h2>
                   <div class="formBox">
                     <div class="inputBox w100">
                       <textarea required></textarea>
